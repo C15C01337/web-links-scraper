@@ -5,9 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-# url = input("enter a url: ")
+url = input("enter a url: ")
 
-url = "https://hackasec.wordpress.com"
 
 # step 1: get the page
 
