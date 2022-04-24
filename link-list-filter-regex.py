@@ -12,7 +12,7 @@ with open ('ultimate-links.txt', 'r') as file:
         
 # used regex for filtering the links with facebook and twitter
 
-r = re.compile("https+://+www+.[{f}{t}{g}{i}].+")
+r = re.compile("https+://+(www.)?[{f}{t}{g}{i}].+")
 filtered_list = list(filter(r.match, listed))
 
 print(filtered_list)
